@@ -65,55 +65,45 @@ RBAC-assignment/
 └── README.md
 
 
-📦src
- ┣ 📂config
- ┃ ┣ 📜dbConnection.ts
- ┃ ┗ 📜passportConfig.ts
- ┣ 📂controllers
- ┃ ┣ 📜authControllers.ts
- ┃ ┗ 📜RoleController.ts
- ┣ 📂middlewares
- ┃ ┣ 📜authMiddleware.ts
- ┃ ┗ 📜roleControlMiddleware.ts
- ┣ 📂models
- ┃ ┗ 📜User.ts
- ┣ 📂routes
- ┃ ┣ 📜authRoutes.ts
- ┃ ┗ 📜userRoutes.ts
- ┗ 📜index.ts
+
 ```
 ---
 
-## **API Endpoints**
+## **API Endpoints** 📡
 
-### **Authentication Routes**
-- `POST /auth/register`  
-   Registers a new user with **email**, **password**, and **role**.
-- `POST /auth/login`  
-   Authenticates a user with **email** and **password**, returning a JWT.
-- `POST /auth/logout`  
-   Clears the user's session (client-side implementation required).
-- `GET /auth/google`  
-   Initiates Google OAuth login process.
-- `GET /auth/google/callback`  
-   Handles the callback after Google OAuth authentication.
+### **Authentication Routes** 🔑
+- `POST /auth/register` &nbsp;![POST](https://img.shields.io/badge/-POST-blue)
+   - Registers a new user with **email**, **password**, and **role**.
+
+- `POST /auth/login` &nbsp;![POST](https://img.shields.io/badge/-POST-blue)
+   - Authenticates a user with **email** and **password**, returning a JWT.
+
+- `POST /auth/logout` &nbsp;![POST](https://img.shields.io/badge/-POST-blue)
+   - Clears the user's session (client-side implementation required).
+
+- `GET /auth/google` &nbsp;![GET](https://img.shields.io/badge/-GET-green)
+   - Initiates Google OAuth login process.
+
+- `GET /auth/google/callback` &nbsp;![GET](https://img.shields.io/badge/-GET-green)
+   - Handles the callback after Google OAuth authentication.
 
 ---
 
-### **Role-Based Routes**
+### **Role-Based Routes** 🔒
 #### Accessible to users based on roles:
-- **General Users**:  
-  `GET /user` - Accessible to all authenticated users.
-  
-- **Managers**:  
-  `GET /manager` - Accessible to managers and admins.
+- `GET /user` &nbsp;![GET](https://img.shields.io/badge/-GET-green)
+   - Accessible to all authenticated users.
 
-- **Admins**:  
-  `GET /admin` - Admin-only access.  
-  `PATCH /admin/changeRole` - Admins can modify a user's role.
+- `GET /manager` &nbsp;![GET](https://img.shields.io/badge/-GET-green)
+   - Accessible to managers and admins.
+
+- `GET /admin` &nbsp;![GET](https://img.shields.io/badge/-GET-green)
+   - Admin-only access.
+
+- `PATCH /admin/changeRole` &nbsp;![PATCH](https://img.shields.io/badge/-PATCH-yellow)
+   - Admins can modify a user's role.
 
 ---
-
 ## **Role Hierarchy**
 
 1. **Admin**  
@@ -158,7 +148,7 @@ RBAC-assignment/
    ```bash
    npm run dev
    ```
-4.Access the server:
+4. **Access the server**:
    Navigate to http://localhost:3000 in your browser or Postman.
 
 
