@@ -4,12 +4,13 @@ A secure and robust authentication and authorization system implementing Role-Ba
 
 ---
 ## **Table of Contents** 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Directory Structure](#directory-structure)
-- [API Endpoints](#api-endpoints)
-- [Role Hierarchy](#role-hierarchy)
-- [Setup and Installation](#setup-and-installation)
+- [1.Features](#features)
+- [2.Tech Stack](#tech-stack)
+- [3.Directory Structure](#directory-structure)
+- [4.API Endpoints](#api-endpoints)
+- [5.Role Hierarchy](#role-hierarchy)
+- [6.Setup and Installation](#setup-and-installation)
+- [6.License Details](#license-details)
 ---
 
 ## **Features**
@@ -42,11 +43,11 @@ A secure and robust authentication and authorization system implementing Role-Ba
   ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white)
 
 - **Database**:  
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)
+  ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=black)
 
 - **Authentication**:  
   ![JWT](https://img.shields.io/badge/-JWT-black?logo=jsonwebtokens&logoColor=white)  
-  ![Passport.js](https://img.shields.io/badge/-Passport.js-34E27A?logo=passport&logoColor=white)
+  ![Passport.js](https://img.shields.io/badge/-Passport.js-34E27A?logo=passport&logoColor=black)
 
 - **Programming Language**:  
   ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white)
@@ -170,7 +171,11 @@ RBAC-assignment/
 4. **Access the server**:
    Navigate to http://localhost:3000 in your browser or Postman.
 
+## **License Details** 
 
+This project is licensed under the **MIT License**.  
+
+You are free to use, modify, and distribute this project as per the license terms. See the [LICENSE](LICENSE.txt) file for more details.
 
 
 
