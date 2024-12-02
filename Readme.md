@@ -38,22 +38,31 @@ A secure and robust authentication and authorization system implementing Role-Ba
 ---
 
 ## **Directory Structure**
-```
-src/
-├── config/
-│   ├── dbConnection.ts          # MongoDB connection configuration
-│   └── passportConfig.ts        # Passport.js Google OAuth setup
-├── controllers/
-│   ├── authControllers.ts       # Authentication logic (register/login/logout)
-│   └── roleController.ts        # Role management logic
-├── middlewares/
-│   ├── authMiddleware.ts        # JWT and Google OAuth verification
-│   └── roleControlMiddleware.ts # Role-based access control logic
-├── models/
-│   └── User.ts                  # Mongoose schema for user accounts
-└── routes/
-    ├── authRoutes.ts            # Routes for authentication endpoints
-    └── userRoutes.ts            # Routes for user-specific endpoints
+``t a
+RBAC-assignment/
+├── src/
+│   ├── config/
+│   │   ├── dbConnection.ts          # MongoDB connection configuration
+│   │   └── passportConfig.ts        # Passport.js Google OAuth setup
+│   │
+│   ├── controllers/
+│   │   ├── authController.ts        # Authentication logic (register/login/logout)
+│   │   └── roleController.ts        # Role management logic
+│   │
+│   ├── middlewares/
+│   │   ├── authMiddleware.ts        # JWT and Google OAuth verification
+│   │   └── roleControlMiddleware.ts # Role-based access control logic
+│   │
+│   ├── models/
+│   │   └── User.ts                  # Mongoose schema for user accounts
+│   │
+│   └── routes/
+│       ├── authRoutes.ts            # Routes for authentication endpoints
+│       └── userRoutes.ts            # Routes for user-specific endpoints
+│
+├── .env                            # Environment variables
+├── package.json
+└── README.md
 
 ```
 ---
