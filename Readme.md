@@ -43,11 +43,11 @@ A secure and robust authentication and authorization system implementing Role-Ba
   ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white)
 
 - **Database**:  
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=black)
+  ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)
 
 - **Authentication**:  
-  ![JWT](https://img.shields.io/badge/-JWT-black?logo=jsonwebtokens&logoColor=white)  
-  ![Passport.js](https://img.shields.io/badge/-Passport.js-34E27A?logo=passport&logoColor=black)
+  ![JWT](https://img.shields.io/badge/-JWT-white?logo=jsonwebtokens&logoColor=black)  
+  ![Passport.js](https://img.shields.io/badge/-Passport.js-34E27A?logo=passport&logoColor=white)
 
 - **Programming Language**:  
   ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white)
