@@ -3,16 +3,13 @@
 A secure and robust authentication and authorization system implementing Role-Based Access Control (RBAC) using **Node.js**, **Express**, and **TypeScript**.
 
 ---
-## **Table of Contents** 📚
-- [Features](#features-)
-- [Tech Stack](#tech-stack-️)
-- [Directory Structure](#directory-structure-)
-- [API Endpoints](#api-endpoints-)
-- [Role Hierarchy](#role-hierarchy-)
-- [Setup and Installation](#setup-and-installation-️)
-- [Security Practices](#security-practices-)
-- [Future Enhancements](#future-enhancements-)
-- [License](#license-)
+## **Table of Contents** 
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Directory Structure](#directory-structure)
+- [API Endpoints](#api-endpoints)
+- [Role Hierarchy](#role-hierarchy)
+- [Setup and Installation](#setup-and-installation)
 ---
 
 ## **Features**
@@ -40,11 +37,22 @@ A secure and robust authentication and authorization system implementing Role-Ba
 ---
 
 ## **Tech Stack**
-- ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) **Backend**: Node.js, Express.js  
-- ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) **Database**: MongoDB  
-- ![JWT](https://img.shields.io/badge/-JWT-black?logo=jsonwebtokens&logoColor=white) **Authentication**: JSON Web Tokens (JWT), Passport.js  
-- ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white) **Programming Language**: TypeScript  
-- ![Bcrypt](https://img.shields.io/badge/-Bcrypt-yellow) **Security**: Bcrypt for password hashing
+- **Backend**:  
+  ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)  
+  ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white)
+
+- **Database**:  
+  ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)
+
+- **Authentication**:  
+  ![JWT](https://img.shields.io/badge/-JWT-black?logo=jsonwebtokens&logoColor=white)  
+  ![Passport.js](https://img.shields.io/badge/-Passport.js-34E27A?logo=passport&logoColor=white)
+
+- **Programming Language**:  
+  ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white)
+
+- **Security**:  
+  ![Bcrypt](https://img.shields.io/badge/-Bcrypt-yellow)
 
 ---
 
@@ -80,9 +88,9 @@ RBAC-assignment/
 ```
 ---
 
-## **API Endpoints** 📡
+## **API Endpoints**
 
-### **Authentication Routes** 🔑
+### **Authentication Routes**
 - `POST /auth/register` &nbsp;![POST](https://img.shields.io/badge/-POST-blue)
    - Registers a new user with **email**, **password**, and **role**.
 
@@ -100,7 +108,7 @@ RBAC-assignment/
 
 ---
 
-### **Role-Based Routes** 🔒
+### **Role-Based Routes**
 #### Accessible to users based on roles:
 - `GET /user` &nbsp;![GET](https://img.shields.io/badge/-GET-green)
    - Accessible to all authenticated users.
