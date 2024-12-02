@@ -39,7 +39,21 @@ A secure and robust authentication and authorization system implementing Role-Ba
 
 ## **Directory Structure**
 
-src/ ├── config/ │ ├── dbConnection.ts # MongoDB connection configuration │ └── passportConfig.ts # Passport.js Google OAuth setup ├── controllers/ │ ├── authControllers.ts # Authentication logic (register/login/logout) │ └── roleController.ts # Role management logic ├── middlewares/ │ ├── authMiddleware.ts # JWT and Google OAuth verification │ └── roleControlMiddleware.ts # Role-based access control logic ├── models/ │ └── User.ts # Mongoose schema for user accounts └── routes/ ├── authRoutes.ts # Routes for authentication endpoints └── userRoutes.ts # Routes for user-specific endpoints
+src/
+├── config/
+│   ├── dbConnection.ts          # MongoDB connection configuration
+│   └── passportConfig.ts        # Passport.js Google OAuth setup
+├── controllers/
+│   ├── authControllers.ts       # Authentication logic (register/login/logout)
+│   └── roleController.ts        # Role management logic
+├── middlewares/
+│   ├── authMiddleware.ts        # JWT and Google OAuth verification
+│   └── roleControlMiddleware.ts # Role-based access control logic
+├── models/
+│   └── User.ts                  # Mongoose schema for user accounts
+└── routes/
+    ├── authRoutes.ts            # Routes for authentication endpoints
+    └── userRoutes.ts            # Routes for user-specific endpoints
 
 
 ---
@@ -96,4 +110,32 @@ src/ ├── config/ │ ├── dbConnection.ts # MongoDB connection config
    ```bash
    git clone https://github.com/soham1826/RBAC-assignment.git
    cd RBAC-asssignment
+
+## Install Dependencies
+
+1. **Install dependencies**:  
+   ```bash
+   npm install
+
+
+2. **Set up environment variables**:  
+   Create a `.env` file in the root directory with:
+   ```bash
+   PORT=3000
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+4.Access the server:
+   Navigate to http://localhost:3000 in your browser or Postman.
+
+
+
+
 
