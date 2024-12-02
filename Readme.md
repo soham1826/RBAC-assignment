@@ -3,6 +3,17 @@
 A secure and robust authentication and authorization system implementing Role-Based Access Control (RBAC) using **Node.js**, **Express**, and **TypeScript**.
 
 ---
+## **Table of Contents** 📚
+- [Features](#features-)
+- [Tech Stack](#tech-stack-️)
+- [Directory Structure](#directory-structure-)
+- [API Endpoints](#api-endpoints-)
+- [Role Hierarchy](#role-hierarchy-)
+- [Setup and Installation](#setup-and-installation-️)
+- [Security Practices](#security-practices-)
+- [Future Enhancements](#future-enhancements-)
+- [License](#license-)
+---
 
 ## **Features**
 
@@ -29,11 +40,11 @@ A secure and robust authentication and authorization system implementing Role-Ba
 ---
 
 ## **Tech Stack**
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT), Passport.js
-- **Programming Language**: TypeScript
-- **Security**: Bcrypt for password hashing
+- ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) **Backend**: Node.js, Express.js  
+- ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) **Database**: MongoDB  
+- ![JWT](https://img.shields.io/badge/-JWT-black?logo=jsonwebtokens&logoColor=white) **Authentication**: JSON Web Tokens (JWT), Passport.js  
+- ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white) **Programming Language**: TypeScript  
+- ![Bcrypt](https://img.shields.io/badge/-Bcrypt-yellow) **Security**: Bcrypt for password hashing
 
 ---
 
