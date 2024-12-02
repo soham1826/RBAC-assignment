@@ -38,7 +38,7 @@ A secure and robust authentication and authorization system implementing Role-Ba
 ---
 
 ## **Directory Structure**
-
+```
 src/
 ├── config/
 │   ├── dbConnection.ts          # MongoDB connection configuration
@@ -55,7 +55,7 @@ src/
     ├── authRoutes.ts            # Routes for authentication endpoints
     └── userRoutes.ts            # Routes for user-specific endpoints
 
-
+```
 ---
 
 ## **API Endpoints**
