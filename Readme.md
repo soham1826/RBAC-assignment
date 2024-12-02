@@ -64,6 +64,23 @@ RBAC-assignment/
 ├── package.json
 └── README.md
 
+
+📦src
+ ┣ 📂config
+ ┃ ┣ 📜dbConnection.ts
+ ┃ ┗ 📜passportConfig.ts
+ ┣ 📂controllers
+ ┃ ┣ 📜authControllers.ts
+ ┃ ┗ 📜RoleController.ts
+ ┣ 📂middlewares
+ ┃ ┣ 📜authMiddleware.ts
+ ┃ ┗ 📜roleControlMiddleware.ts
+ ┣ 📂models
+ ┃ ┗ 📜User.ts
+ ┣ 📂routes
+ ┃ ┣ 📜authRoutes.ts
+ ┃ ┗ 📜userRoutes.ts
+ ┗ 📜index.ts
 ```
 ---
 
