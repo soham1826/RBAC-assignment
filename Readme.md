@@ -38,7 +38,7 @@ A secure and robust authentication and authorization system implementing Role-Ba
 ---
 
 ## **Directory Structure**
-``t a
+```
 RBAC-assignment/
 ├── src/
 │   ├── config/
