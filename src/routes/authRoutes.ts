@@ -12,10 +12,10 @@ import { Request, Response } from 'express';
 
 const router = express.Router();
 
-// Normal Login Using JWT 
+// Normal Registeration  
 router.post('/register',registerController)
 
-// Normal Registration 
+// Normal Login using JWT
 router.post('/login',loginController)
 
 
